@@ -1,5 +1,5 @@
-const enums = require("../_enums");
-const { ResponseStatus, ResponseMessages } = require("../_enums");
+const enums = require("../_enum");
+const { ResponseStatus, ResponseMessages } = require("../_enum");
 
 const ApiErrorHandler = (fn) => {
   return (req, res, next) => {
